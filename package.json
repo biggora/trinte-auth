@@ -1,20 +1,39 @@
 {
   "optionalDependencies": {},
-  "keywords": [],
-  "engines": {"node": ">=0.6"},
+  "keywords": [
+    "auth",
+    "everyauth",
+    "trinte",
+    "trintejs",
+    "caminte",
+  ],
+  "engines": {
+    "node": ">=0.8",
+    "npm": ">=1.0"
+  },
   "licenses": [],
   "devDependencies": {"nodeunit": ">=0.5.4"},
-  "homepage": "",
+  "homepage": "http://www.trintejs.com/",
   "version": "0.0.1",
   "main": "./index.js",
-  "author": "",
+  "author": {
+    "name": "Aleksej Gordejev",
+    "email": "aleksej@gordejev.lv",
+    "url": "https://github.com/biggora/"
+  },
   "scripts": {"test": "nodeunit tests/test.js"},
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biggora/trinte-auth.git"
+  },
   "directories": {
     "lib": "lib",
     "tests": "tests"
   },
-  "dependencies": {},
-  "description": "",
+  "dependencies": {
+    "trinte": ">=0.1.0",
+    "everyauth": ">=0.0.4"
+  },
+  "description": "Auth module for TrinteJS Javascript MVC Framework",
   "name": "trinte-auth"
 }
