@@ -1,4 +1,4 @@
-# Auth module for TrinteJS Javascript MVC Framework
+## Auth module for TrinteJS Javascript MVC Framework
 
 This middleware ensures that a user is logged in. If a request is received that is unauthenticated, the request will be redirected to a login page. The URL will be saved in the session, so the user can be conveniently returned to the page that was originally requested.
 

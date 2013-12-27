@@ -13,7 +13,9 @@
     "npm": ">=1.0"
   },
   "licenses": [],
-  "devDependencies": {"nodeunit": ">=0.5.4"},
+  "devDependencies": {
+       "nodeunit": ">=0.5.4"
+  },
   "homepage": "http://www.trintejs.com/",
   "version": "0.0.1",
   "main": "./index.js",
@@ -31,10 +33,7 @@
     "lib": "lib",
     "tests": "tests"
   },
-  "dependencies": {
-    "trinte": ">=0.1.0",
-    "everyauth": ">=0.0.4"
-  },
+  "dependencies": {},
   "description": "Auth module for TrinteJS Javascript MVC Framework",
   "name": "trinte-auth"
 }
