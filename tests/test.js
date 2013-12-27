@@ -6,4 +6,4 @@
  * 
  */
 
-var trinte-auth = require('./../lib/trinte-auth.js');
+var trinteAuth = require('./../lib/trinte-auth.js');
