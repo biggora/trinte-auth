@@ -6,7 +6,7 @@
     "passport",
     "trinte",
     "trintejs",
-    "caminte",
+    "caminte"
   ],
   "engines": {
     "node": ">=0.8",
