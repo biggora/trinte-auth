@@ -28,4 +28,15 @@ exports['should export isNotLoggedIn'] = function(test) {
     test.strictEqual(trinteAuth.isNotLoggedIn, trinteAuth.ensureNotAuthenticated);
     test.done();
 };
-    
+
+exports['should export logOut'] = function(test) {
+    test.equal(typeof trinteAuth.logOut, 'function');
+    test.equal(typeof trinteAuth.logOut(), 'function');
+    test.done();
+};
+
+exports['should export setReturnUrl'] = function(test) {
+    test.equal(typeof trinteAuth.setReturnUrl, 'function');
+    test.equal(typeof trinteAuth.setReturnUrl(), 'function');
+    test.done();
+};    

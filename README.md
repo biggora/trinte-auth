@@ -44,6 +44,17 @@ If a user is not logged in when attempting to access this page, the request will
 be redirected to `/login` and the original request URL (`/profile`) will be
 saved to the session at `req.session.returnTo`.
 
+#### LogOut helper
+
+
+```js
+    var auth = require('trinte-auth');
+
+    app.get('/logout', auth.logOut('/'));
+
+```
+
+
 ### Copyright & License
 
     (The MIT License)
